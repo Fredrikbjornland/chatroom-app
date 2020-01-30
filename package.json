@@ -1,5 +1,6 @@
 {
     "scripts": {
-      "heroku-prebuild": "cd client && npm start"
+      "heroku-prebuild": "cd server && npm install && npm start",
+      "start": "cd server && npm start"
     }
 }
